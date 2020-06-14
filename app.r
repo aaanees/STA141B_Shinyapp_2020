@@ -158,8 +158,8 @@ server <- function(input, output) {
                        popup = paste(
                            "<b>Location Name: </b>",my_data$name,"<br>","<br>",
                            "<b> Rating: </b>",my_data$rating,"<br>",
-                           "<b> Number of Reviews : </b>",my_data$businesses$review_count,"<br>",
-                           "</b>",my_data$name,"<br>","<b>Phone number : </b>",my_data$phone, "<br>",
+                           "<b> Number of Reviews : </b>",my_data$review_count,"<br>",
+                           "<b>Phone number : </b>",my_data$phone, "<br>",
                            "<b> Location Address: <b>", my_data$location.display_address,"</b>","<br>",
                            sep=""))
         
