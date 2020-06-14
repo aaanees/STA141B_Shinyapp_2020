@@ -172,4 +172,4 @@ shinyApp(ui = ui, server = server)
 
 
 # This is the link to run the app
-#https://abdallah-anees.shinyapps.io/Final_Project_141B/
+#https://abdallah-anees.shinyapps.io/STA141B_Shinyapp_2020/
